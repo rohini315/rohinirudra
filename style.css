@@ -109,7 +109,7 @@ h3 {
   position:fixed;
   top: 0;
   left: 0;
-  background-image: url("pink.png");
+  background-image: url("assets/pink.png");
   background-size:115%;
   background-repeat:no-repeat;
   background-position:0 0;
@@ -127,7 +127,7 @@ h3 {
   position:fixed;
   bottom: 0;
   right: 0;
-  background-image: url("yellow.png");
+  background-image: url("assets/yellow.png");
   background-size:100%;
   background-repeat:no-repeat;
   z-index:3;
