@@ -93,6 +93,7 @@ h3 {
   font-weight:normal;
   color:#334431;
 }
+
 h3.dash{
   margin:0;
   padding:0;
@@ -333,7 +334,7 @@ span.dinreg {
   position:fixed;
   top: 0;
   left: 0;
-  background-image: url("red.png");
+  background-image: url("yellowtop.png");
   background-size:30%;
   background-repeat:no-repeat;
   background-position:0 0;
@@ -346,7 +347,7 @@ span.dinreg {
   position:fixed;
   bottom: 0;
   right: 0;
-  background-image: url("small_red.png");
+  background-image: url("pinklow.png");
   background-size:100%;
   background-repeat:no-repeat;
   z-index:-1000;
