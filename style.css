@@ -49,7 +49,7 @@ body {
   text-decoration:none;
 }
 
-#pitch {
+#description {
   width: 100%;
   margin-bottom:40px;
   font-family: "Josefin Sans";
@@ -103,7 +103,7 @@ h3 {
 }
 
 
-#upper-triangle {
+#pink_triangle {
   width:100%;
   height:100%;
   position:fixed;
@@ -121,7 +121,7 @@ h3 {
   -o-animation: animateYellow 0.4s ease-out;
 }
 
-#lower-triangle {
+#yellow_triangle {
   width:100%;
   height:30%;
   position:fixed;
@@ -140,21 +140,21 @@ h3 {
   animation-delay: 0.1s;
 }
 
-.soc {
+.contact {
     
     margin:0;
     padding:0;
     list-style:none;
 }
 
-.soc li {
+.contact li {
     display:inline-block;
     *display:inline;
     zoom:1;
     padding-bottom:1px;
 }
 
-.soc li a {
+.contact li a {
     font-family:"Dosis"!important;
     font-style:normal;
     font-weight:700;
@@ -181,7 +181,7 @@ h3 {
   
   }
 
-.soc li a:hover {
+.contact li a:hover {
   font-size: 20px;
   text-decoration: underline;
 }
@@ -214,12 +214,12 @@ h3 {
     color:#334431;
   }
 
-  #pitch {
+  #description {
   margin-bottom:60px;
   color:#334431;
   }
 
-  #upper-triangle {
+  #pink_triangle {
   background-size:75%;
   }
 }
@@ -242,20 +242,17 @@ h3 {
     margin-bottom:70px;
     color:#334431;
   }
-  #pitch {
+  #description {
   margin-bottom:70px;
   color:#334431;
   }
-  p.footer{
-  font-size:13px;
-  color:#334431;
-  }
-  .soc li a {
+  
+  .social li a {
     line-height: 55px;
     font-size: 21px;
     color:#334431;
   }
-  #upper-triangle {
+  #pink_triangle {
   background-size:65%;
   }
 }
@@ -271,7 +268,7 @@ h3 {
   color:#334431;
 
   }
-  #pitch {
+  #description {
     width:80%;
     float:left;
     margin-right:40px;
@@ -282,21 +279,21 @@ h3 {
     float:left;
     color:#334431;
   }
-  .soc li {
+  .social li {
     width:100%;
     margin-bottom:8px;
     color:#334431;
   }
-  .soc li a {
+  .social li a {
     width: 36px;
     height: 36px;
     line-height: 36px;
     font-size: 16px;
     color:#334431;
   }
-  .optical-right {
+  /*.optical-right {
     margin-left:2px;
-  }
+  }*/
 
 }
 
