@@ -45,7 +45,7 @@ body {
 }
 
 #name a{
-  color:#000;
+  color:#334431;
   text-decoration:none;
 }
 
@@ -86,7 +86,7 @@ h2 {
 #about_me{
   font-family:"Josefin Sans";
   size:20px;
-  color:color:#334431;
+  color:#334431;
   width:400px;
 }
 
@@ -177,7 +177,7 @@ h3 {
     line-height: 45px;
     font-size: 17px;
     margin-right: 12px;
-    color: #000;
+    color:#334431;
   
   }
 
@@ -187,7 +187,7 @@ h3 {
 }
 
 
-.soc-icon-last{
+.social{
     margin:0 !important;
 }
 
@@ -291,9 +291,6 @@ h3 {
     font-size: 16px;
     color:#334431;
   }
-  /*.optical-right {
-    margin-left:2px;
-  }*/
 
 }
 
