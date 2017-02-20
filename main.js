@@ -1,7 +1,7 @@
 var delays = {
   'name': 400,
-  'intro':900,
-  'dash': 1200,
+  'intro':600,
+  'dash': 900,
   'job': 1700,
   'about': 2200,
   'links': 2500,
