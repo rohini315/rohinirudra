@@ -1,0 +1,69 @@
+
+/**
+    video pages================
+**/
+
+a#backButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #FBC8C8;
+    border: 4px solid #FBC8C8;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    padding: 1px 6px;
+    text-decoration: none;
+}
+
+a#backButton:hover {
+    color: #EDB03A;
+    border: 4px solid #EDB03A;
+}
+
+a#backButton:active {
+    top: 12px;
+    right: 8px;
+}
+
+#Vcontent{
+    margin: auto;
+    margin-top: 4%;
+    width: 900px;
+}
+#VcontentBorder{
+    border: 15px solid #FBC8C8;
+    padding: 50px 30px 0;
+    margin: 0 auto;
+    position: relative;
+}
+#VcontentBorder p{
+    text-decoration: none;
+    color: #334431;
+    font-family: 'Lato', sans-serif;
+    width: 800px;
+    margin: 20px auto 25px;
+}
+#link{
+    text-decoration: none;
+    color: #334431;
+    font-family: 'Lato', sans-serif;
+}
+
+video {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
+
+iframe{
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+/**
+    video pages==============end
+**/
+
