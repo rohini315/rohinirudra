@@ -76,11 +76,12 @@ ________________________*/
 	z-index: 1;
 }
 
+
+}
 .link{
 
 	display:inline-block;
 	max-width: 30%;
-	background-color: orange;
 	text-align: center;
 }
 
@@ -328,50 +329,103 @@ ________________________*/
 	}
 }
 
-@media (max-width:1800px){
+@media (max-width:2000px){
+
 	.main{
 		height: 60vh;
 	}
 
-.image{
-	position: relative;
-	width:100%;
+	.image{
+		position: relative;
+		width:100%;
+	}
+
+	.image img {
+		width:11%;
+	}
+
+	#stars, #pink_stars,#lip{
+		margin-left: 110em;
+	}
+
+	#g{
+		margin-left: 78em;
+	}
+
+	#lip{
+		margin-top: 36em;
+	}
+
+	#blues{
+		margin-left: 77em;
+	}
+
+	#cherry{
+		margin-top:35em;
+	}
+
+	#peace{
+		margin-top: 35em;
+	}
+
+
+
+	.four p {
+		font-size: 1.2em;
+	}
+
 }
 
-.image img {
-	width:10%;
+@media (min-width: 2400px){
+
+	.main {
+		height:70vh;
+	}
+	.image img {
+		width:15%;
+		float:right;
+	}
+
+	#blue_star{
+		margin-left:100em;
+	}
+
+	#stars{
+		margin-left: 125em;
+	}
+
+	#pink_stars{
+		margin-left: 130em;
+	}
+
+	#lip{
+		margin-left:115em;
+	}
+
+	#g{
+		margin-left: 90em;
+	}
+
+	#peace{
+		margin-top: 40em;
+	}
+
+	#eyes{
+		margin-left: 50em;
+	}
+
+	#blues{
+		margin-top: 37em;
+		margin-left: 85em;
+	}
+
+	#gloss{
+		margin-left: 22em;
+	}
+	#links{
+		
+	}
 }
-
-#stars, #pink_stars,#lip{
-	margin-left: 100em;
-}
-
-#lip{
-	margin-top: 33em;
-}
-
-#blues{
-	margin-left: 75em;
-}
-
-#cherry{
-	margin-top:30em;
-}
-
-#peace{
-	margin-top: 35em;
-}
-
-.links{
-	width:30%;
-	margin-left: 5em;
-}
-
-.four p {
-	font-size: 1.2em;
-}
-
-
 
 
 
