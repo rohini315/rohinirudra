@@ -1,0 +1,379 @@
+/*Table of Contents
+_________________________________________
+- General Content
+- Typography
+- Images & Media
+- Media Queries
+_________________________________________*/
+
+
+
+/*General Content
+________________________*/
+
+.image{
+	position: relative;
+	z-index: 100;
+	float:left;
+	display:inline;
+}
+
+
+.main{
+	height: 90vh;
+/*	background-color: blue;
+*/}
+
+.content{
+	background-color: #F5E3E7;	
+	position: absolute;
+	z-index: -1;
+	margin-top: 15%;
+}
+.content:before {
+	position:absolute;
+    z-index:-1;
+    top:0;
+    left:0;
+    width:100%;
+    height:10%;
+    content:"";
+    background-color:white;
+}
+
+
+.pink{
+	background-color:#F5E3E7;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width:100%;
+}
+
+.contact {
+	background-color: #F9F7F1;
+}
+
+
+ header{
+ 	background-color: #F9F7F1;
+ }
+
+.four img {
+	position: absolute;
+	
+}
+
+.four p {
+	padding-left:2em;
+}
+
+.four p {
+	width:100%;
+}
+.image_holder{
+	width:20%;
+	height:50px;
+	z-index: 1;
+}
+
+.link{
+
+	display:inline-block;
+	max-width: 30%;
+	background-color: orange;
+	text-align: center;
+}
+
+
+.link h2{
+text-align: center;
+}
+ .link a{
+ 	text-align: center;
+ 	margin-left: 50%;
+ }
+
+/*_________________________________*/
+
+
+/*Typography
+________________________*/
+
+@font-face {
+   font-family: Glossier;
+   src: url("../fonts/glossier.otf");
+}
+
+@font-face {
+   font-family: Logo;
+   src: url("../fonts/italic.otf");
+}
+
+@font-face {
+   font-family: Light;
+   src: url("../fonts/light.otf");
+}
+
+h5,h3,h2 {
+	font-family:Glossier;
+	text-align:center;
+}
+
+h5{
+	font-size:3.125em;
+}
+
+
+h4{
+	font-family:Logo;
+	text-align: center;
+	font-size:3.125em;
+}
+
+h3 {font-size: 1.875em;
+}
+
+p {
+	font-family: Light;
+	font-size:1.125em;
+}
+
+#heading{
+	padding-top: 3.125em;
+	font-size: 1.875em;
+}
+#sum_up {
+	text-align: center;
+	font-size:1.250em;
+}
+
+h2 {
+	font-size: 2em;
+	padding-left: 3em;
+	text-align: right;
+
+}
+
+a{
+	color:black;
+	text-decoration: none;
+	text-align: right;
+	
+}
+
+a:hover {
+	text-decoration:underline;
+	color: #0000FF;
+}
+
+.logo{
+	width:10%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+
+}
+
+
+
+/*Images
+________________________*/
+
+.stickers {
+	z-index: 10;
+	width:10%;
+	height:auto;
+	position: relative;
+}
+
+#g{
+	max-width: 5%;
+	margin-left: 65em;
+	margin-top: 2em;
+	position: absolute;
+}
+
+#stars{
+	margin-left: 85em;
+	margin-top: 3em;
+	position:absolute;
+
+}
+
+#peace {
+	position:absolute;
+	margin-top: 30em;
+	margin-left: 10em;
+}
+
+#eyes{
+	margin-top: 25em;
+	margin-left: 15em;
+	position: absolute;
+}
+
+#balloon{
+	margin-left: 16em;
+	position: absolute;
+}
+
+#cherry{
+	margin-left: 50em;
+	margin-top: 40em;
+	position: absolute;
+
+}
+
+#heart{
+	position: absolute;
+	margin-top:3em;
+	margin-left: 1em;
+}
+
+#three_eyes{
+	position:absolute;
+	margin-top: 32em;
+	margin-left: 32em;
+}
+
+#lip{
+	margin-left:85em;
+	margin-top:40em;
+	position:absolute;
+}
+
+#blue_star{
+	margin-left: 70em;
+	margin-top: 8em;
+	position:absolute;
+
+}
+
+#gloss{
+	margin-top: 13em;
+	margin-left:5em;
+	position: absolute;
+
+}
+
+#pink_stars{
+	margin-left:85em;
+	margin-top: 25em;
+
+}
+
+#piano{
+	margin-top:27em;
+	margin-left: 4em;
+
+}
+
+#rainbow{
+	margin-left:40em;
+	margin-top:3em;
+
+}
+
+#blues{
+	margin-left: 67em;
+	margin-top:33em;
+
+}
+
+
+
+#g{
+	width:4.375em;
+}
+
+.icons{
+	margin-left:10em;
+	padding-bottom: 40px;
+	position:relative;
+}
+
+.links {
+	max-width:10em;
+	padding-left:13em;
+}
+
+/*Media Queries
+________________________*/
+@media (max-width: 400px) {
+	.image{
+		display:none;
+	}
+
+	.stickers{
+		visibility: hidden;
+	}
+
+	h5{
+		font-size: 2em;
+	}
+
+	h3{
+		font-size: 1em;
+	}
+
+	h4{ font-size:1.5em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.links{
+		max-width:20%;
+	}
+}
+
+@media (max-width:1800px){
+	.main{
+		height: 60vh;
+	}
+
+.image{
+	position: relative;
+	width:100%;
+}
+
+.image img {
+	width:10%;
+}
+
+#stars, #pink_stars,#lip{
+	margin-left: 100em;
+}
+
+#lip{
+	margin-top: 33em;
+}
+
+#blues{
+	margin-left: 75em;
+}
+
+#cherry{
+	margin-top:30em;
+}
+
+#peace{
+	margin-top: 35em;
+}
+
+.links{
+	width:30%;
+	margin-left: 5em;
+}
+
+.four p {
+	font-size: 1.2em;
+}
+
+
+
+
+
+
+
