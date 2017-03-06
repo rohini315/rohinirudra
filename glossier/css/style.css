@@ -239,10 +239,10 @@ margin-top:36%;
 
 /*Media Queries
 ________________________*/
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
 	.main {
-		height:70vh;
+		height:30vh;
 	}
 
 	.image {
@@ -278,11 +278,11 @@ ________________________*/
 @media (max-width:1600px){
 
 	.main {
-		height: 100vh;
+		height: 75vh;
 	}
 
 	.images {
-		height:80vh;
+		height:60vh;
 	}
 
 
