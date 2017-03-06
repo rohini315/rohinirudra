@@ -275,7 +275,7 @@ ________________________*/
 
 }
 
-@media (max-width:1900px){
+@media (max-width:1600px){
 
 	.main {
 		height: 100vh;
@@ -327,6 +327,14 @@ ________________________*/
 	#blue_star{
 		margin-left: 60%;
 	}
+
+
+}
+
+@media (min-width:1900px){
+	.main {
+		height:60vh;
+	}
 }
 
 @media (min-width: 2000px) {
@@ -337,7 +345,6 @@ ________________________*/
 	.image {
 		height:60vh;
 	}
-
 }
 
 
