@@ -11,24 +11,29 @@ _________________________________________*/
 /*General Content
 ________________________*/
 
-.image{
-	position: relative;
-	z-index: 100;
-	float:left;
-	display:inline;
-}
-
 
 .main{
-	height: 90vh;
-/*	background-color: blue;
-*/}
+	height:70vh;
+	width:100%;
+	
+}
+
+.images{
+height:65vh;
+z-index: 1;
+width:100%;
+max-height:70%;
+position: absolute;
+
+}
 
 .content{
+	margin: 0 auto;
 	background-color: #F5E3E7;	
 	position: absolute;
 	z-index: -1;
-	margin-top: 15%;
+	margin-top: 20%;
+	margin-bottom: 10%;
 }
 .content:before {
 	position:absolute;
@@ -58,41 +63,18 @@ ________________________*/
  	background-color: #F9F7F1;
  }
 
-.four img {
-	position: absolute;
-	
+
+
+.four img{
+margin-left: 42%;
 }
+
 
 .four p {
 	padding-left:2em;
-}
-
-.four p {
 	width:100%;
 }
-.image_holder{
-	width:20%;
-	height:50px;
-	z-index: 1;
-}
 
-
-}
-.link{
-
-	display:inline-block;
-	max-width: 30%;
-	text-align: center;
-}
-
-
-.link h2{
-text-align: center;
-}
- .link a{
- 	text-align: center;
- 	margin-left: 50%;
- }
 
 /*_________________________________*/
 
@@ -150,29 +132,45 @@ p {
 
 h2 {
 	font-size: 2em;
-	padding-left: 3em;
-	text-align: right;
+	
+
 
 }
 
 a{
 	color:black;
 	text-decoration: none;
-	text-align: right;
+
+	
 	
 }
 
 a:hover {
 	text-decoration:underline;
 	color: #0000FF;
+
 }
 
-.logo{
+
+.bye img {
 	width:10%;
-	margin: 0 auto;
-	margin-bottom: 3%;
+	margin-left:46%;
+
 
 }
+
+.buttons{
+	width:18%;
+
+;
+
+	
+
+}
+ .bye{
+ 	margin-bottom: 2%;
+ }
+
 
 
 
@@ -180,122 +178,100 @@ a:hover {
 ________________________*/
 
 .stickers {
-	z-index: 10;
-	width:10%;
-	height:auto;
-	position: relative;
+	max-width: 10%;
+	position: absolute;
 }
 
-#g{
-	max-width: 5%;
-	margin-left: 65em;
-	margin-top: 2em;
+#g{ max-width: 3%;
+	margin-top: 3%;
+	margin-left: 75%;
 	position: absolute;
 }
 
 #stars{
-	margin-left: 85em;
-	margin-top: 3em;
+	margin-top:14%;
+	margin-left: 5%;
 	position:absolute;
-
 }
 
 #peace {
-	position:absolute;
-	margin-top: 30em;
-	margin-left: 10em;
+	margin-left: 10%;
 }
 
 #eyes{
-	margin-top: 25em;
-	margin-left: 15em;
-	position: absolute;
+	margin-left:80%;
+	margin-top:22%;
+
 }
 
 #balloon{
-	margin-left: 16em;
-	position: absolute;
+	margin-left:65%;
+	margin-top: 44%;
+	
 }
 
 #cherry{
-	margin-left: 50em;
-	margin-top: 40em;
-	position: absolute;
+	margin-left:46%;
+	margin-top:40%;
 
 }
 
 #heart{
-	position: absolute;
-	margin-top:3em;
-	margin-left: 1em;
+	margin-left:84%;
+	margin-top: 49%;
+	
 }
 
 #three_eyes{
-	position:absolute;
-	margin-top: 32em;
-	margin-left: 32em;
+	margin-left:4%;
+	margin-top:43%;
+	
 }
 
 #lip{
-	margin-left:85em;
-	margin-top:40em;
-	position:absolute;
+	margin-left:29%;
+	margin-top:5%;
 }
 
 #blue_star{
-	margin-left: 70em;
-	margin-top: 8em;
-	position:absolute;
+	margin-left:55%;
+	margin-top:15%;
 
 }
 
 #gloss{
-	margin-top: 13em;
-	margin-left:5em;
-	position: absolute;
+	margin-left:15%;
+	margin-top: 30%;
+	
 
 }
 
 #pink_stars{
-	margin-left:85em;
-	margin-top: 25em;
+	margin-top: 5%;
+	margin-left: 85%;
+
 
 }
 
 #piano{
-	margin-top:27em;
-	margin-left: 4em;
+	margin-left:26%;
+	margin-top:47%;
+
 
 }
 
 #rainbow{
-	margin-left:40em;
-	margin-top:3em;
+	margin-left:50%;
 
 }
 
 #blues{
-	margin-left: 67em;
-	margin-top:33em;
+margin-left:83%;
+margin-top:36%;
 
 }
 
 
-
-#g{
-	width:4.375em;
-}
-
-.icons{
-	margin-left:10em;
-	padding-bottom: 40px;
-	position:relative;
-}
-
-.links {
-	max-width:10em;
-	padding-left:13em;
-}
 
 /*Media Queries
 ________________________*/
@@ -324,50 +300,13 @@ ________________________*/
 		text-align: center;
 	}
 
-	.links{
-		max-width:20%;
-	}
 }
 
 @media (max-width:2000px){
 
 	.main{
-		height: 60vh;
+		height: 70vh;
 	}
-
-	.image{
-		position: relative;
-		width:100%;
-	}
-
-	.image img {
-		width:11%;
-	}
-
-	#stars, #pink_stars,#lip{
-		margin-left: 110em;
-	}
-
-	#g{
-		margin-left: 78em;
-	}
-
-	#lip{
-		margin-top: 36em;
-	}
-
-	#blues{
-		margin-left: 77em;
-	}
-
-	#cherry{
-		margin-top:35em;
-	}
-
-	#peace{
-		margin-top: 35em;
-	}
-
 
 
 	.four p {
@@ -376,56 +315,9 @@ ________________________*/
 
 }
 
-@media (min-width: 2400px){
 
-	.main {
-		height:70vh;
-	}
-	.image img {
-		width:15%;
-		float:right;
-	}
 
-	#blue_star{
-		margin-left:100em;
-	}
 
-	#stars{
-		margin-left: 125em;
-	}
-
-	#pink_stars{
-		margin-left: 130em;
-	}
-
-	#lip{
-		margin-left:115em;
-	}
-
-	#g{
-		margin-left: 90em;
-	}
-
-	#peace{
-		margin-top: 40em;
-	}
-
-	#eyes{
-		margin-left: 50em;
-	}
-
-	#blues{
-		margin-top: 37em;
-		margin-left: 85em;
-	}
-
-	#gloss{
-		margin-left: 22em;
-	}
-	#links{
-		
-	}
-}
 
 
 
