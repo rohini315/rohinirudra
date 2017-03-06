@@ -114,6 +114,11 @@ a:hover {
 	color: #0000FF;
 }
 
+#bold {
+	font-weight:900;
+	text-decoration: underline;
+}
+
 
 p {
 	font-family: Light;
