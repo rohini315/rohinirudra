@@ -7,25 +7,22 @@ _________________________________________
 _________________________________________*/
 
 
-
 /*General Content
 ________________________*/
 
-
-.main{
+.main {
 	height:80vh;
 	width:100%;	
 }
 
-.images{
-z-index: 1;
-width:100%;
-max-height:70%;
-position: absolute;
-
+.images {
+	z-index: 1;
+	width:100%;
+	max-height:70%;
+	position: absolute;
 }
 
-.content{
+.content {
 	margin: 0 auto;
 	background-color: #F5E3E7;	
 	position: absolute;
@@ -33,6 +30,7 @@ position: absolute;
 	margin-top: 20%;
 	margin-bottom: 10%;
 }
+
 .content:before {
 	position:absolute;
     z-index:-1;
@@ -44,8 +42,7 @@ position: absolute;
     background-color:white;
 }
 
-
-.pink{
+.pink {
 	background-color:#F5E3E7;
 	margin-top: 2%;
 	margin-bottom: 2%;
@@ -56,26 +53,14 @@ position: absolute;
 	background-color: #F9F7F1;
 }
 
-
- header{
- 	background-color: #F9F7F1;
- }
-
-
-
 .four img{
-margin-left: 42%;
+	margin-left: 42%;
 }
-
 
 .four p {
 	padding-left:2em;
 	width:100%;
 }
-
-
-/*_________________________________*/
-
 
 /*Typography
 ________________________*/
@@ -100,77 +85,55 @@ h5,h3,h2 {
 	text-align:center;
 }
 
-h5{
+h5 {
 	font-size:3.125em;
 }
 
 
-h4{
+h4 {
 	font-family:Logo;
 	text-align: center;
 	font-size:3.125em;
 }
 
-h3 {font-size: 1.875em;
+h3 {
+	font-size: 1.875em;
 }
+
+h2 {
+	font-size: 2em;
+}
+
+a{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: #0000FF;
+}
+
 
 p {
 	font-family: Light;
 	font-size:1.125em;
 }
 
-#heading{
+
+#heading {
 	padding-top: 3.125em;
 	font-size: 1.875em;
 }
+
 #sum_up {
 	text-align: center;
 	font-size:1.250em;
 }
 
-h2 {
-	font-size: 2em;
-	
-
-
-}
-
-a{
-	color:black;
-	text-decoration: none;
-
-	
-	
-}
-
-a:hover {
-	text-decoration:underline;
-	color: #0000FF;
-
-}
-
-
-.bye img {
-	width:10%;
-	margin-left:46%;
-
-
-}
-
-.buttons{
-	width:18%;
-
-;
-
-	
-
-}
  .bye{
  	margin-bottom: 2%;
  }
-
-
-
 
 /*Images
 ________________________*/
@@ -180,70 +143,62 @@ ________________________*/
 	position: absolute;
 }
 
-#g{ max-width: 3%;
+#g { 
+	max-width: 3%;
 	margin-top: 3%;
 	margin-left: 75%;
 	position: absolute;
 }
 
-#stars{
+#stars {
 	margin-top:14%;
 	margin-left: 5%;
 	position:absolute;
 }
 
 #peace {
-	
 	margin-left:65%;
 	margin-top: 44%;
 }
 
-#eyes{
+#eyes {
 	margin-left:80%;
 	margin-top:22%;
-
 }
 
-#balloon{
-	margin-left: 10%;
-	
-	
+#balloon {
+	margin-left: 10%;	
 }
 
-#cherry{
+#cherry {
 	margin-left:46%;
 	margin-top:40%;
-
 }
 
-#heart{
+#heart {
 	margin-left:84%;
-	margin-top: 49%;
-	
+	margin-top: 49%;	
 }
 
-#three_eyes{
+#three_eyes {
 	margin-left:4%;
-	margin-top:43%;
-	
+	margin-top:43%;	
 }
 
-#lip{
+#lip {
 	margin-left:29%;
 	margin-top:5%;
 }
 
-#blue_star{
+#blue_star {
 	margin-left:55%;
 	margin-top:15%;
 
 }
 
-#gloss{
+#gloss {
 	margin-left:15%;
 	margin-top: 30%;
-	
-
 }
 
 #pink_stars{
@@ -272,35 +227,45 @@ margin-top:36%;
 }
 
 
+.bye img {
+	width:10%;
+	margin-left:46%;
+}
+
+.buttons{
+	width:18%;
+}
+
 
 /*Media Queries
 ________________________*/
 @media (max-width: 400px) {
 
-	.main{
+	.main {
 		height:70vh;
 	}
-	.image{
+
+	.image {
 		display:none;
 	}
 
-	.stickers{
+	.stickers {
 		visibility: hidden;
 	}
 
-	#g{
+	#g {
 		visibility: hidden;
 	}
 
-	h5{
+	h5 {
 		font-size: 2em;
 	}
 
-	h3{
+	h3 {
 		font-size: 1em;
 	}
 
-	h4{ font-size:1.5em;
+	h4 { font-size:1.5em;
 	}
 
 	h2 {
@@ -312,56 +277,58 @@ ________________________*/
 
 @media (max-width:1600px){
 
-	.main{
-		height: 80vh;
+	.main {
+		height: 100vh;
 	}
 
-	.images{
-		height:75vh;
+	.images {
+		height:80vh;
 	}
 
 
 	.four p {
 		font-size: 1.2em;
 	}
-	.content{
-	margin-top: 10%;
+	.content {
+	margin-top: 14%;
 	margin-bottom: 30%;
 	}
 
-	.stickers{
+	.stickers {
 		width:9%;
 	}
 
-	#cherry{
+	#cherry {
 		margin-left:42%;
 		margin-top:33%;
 
 	}
 
-	#heart{
+	#heart {
 	margin-left:70%;
 	margin-top: 40%;
 
 	}
 
-	#peace{
+	#peace {
 	margin-left:60%;
 	margin-top: 30%;
 
 	}
 
-	#three_eyes{
+	#three_eyes {
 	margin-left:4%;
 	margin-top:37%;
 	}
 
-	#piano{
+	#piano {
 	margin-left:27%;
 	margin-top:38%;
 
 	}
+
 }
+
 
 
 
