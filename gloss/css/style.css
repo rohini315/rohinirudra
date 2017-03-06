@@ -286,6 +286,10 @@ ________________________*/
 		visibility: hidden;
 	}
 
+	#g{
+		visibility: hidden;
+	}
+
 	h5{
 		font-size: 2em;
 	}
