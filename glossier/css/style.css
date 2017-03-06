@@ -11,14 +11,14 @@ _________________________________________*/
 ________________________*/
 
 .main {
-	height:80vh;
+	height:70vh;
 	width:100%;	
 }
 
 .images {
 	z-index: 1;
 	width:100%;
-	max-height:70%;
+	max-height:65%;
 	position: absolute;
 }
 
@@ -333,7 +333,7 @@ ________________________*/
 
 @media (min-width:1900px){
 	.main {
-		height:60vh;
+		height:75vh;
 	}
 }
 
@@ -341,7 +341,6 @@ ________________________*/
 	.main {
 		height:70vh;
 	}
-
 	.image {
 		height:60vh;
 	}
