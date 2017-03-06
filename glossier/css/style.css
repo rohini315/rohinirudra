@@ -14,8 +14,7 @@ ________________________*/
 
 .main{
 	height:80vh;
-	width:100%;
-	
+	width:100%;	
 }
 
 .images{
@@ -311,14 +310,14 @@ ________________________*/
 
 }
 
-@media (max-width:1800px){
+@media (max-width:2000px){
 
 	.main{
 		height: 80vh;
 	}
 
 	.images{
-		height:70vh;
+		height:75vh;
 	}
 
 
@@ -332,6 +331,35 @@ ________________________*/
 
 	.stickers{
 		width:6%;
+	}
+
+	#cherry{
+		margin-left:38%;
+		margin-top:35%;
+
+	}
+
+	#heart{
+	margin-left:75%;
+	margin-top: 37%;
+
+	}
+
+	#peace{
+	margin-left:60%;
+	margin-top: 36%;
+
+	}
+
+	#three_eyes{
+	margin-left:4%;
+	margin-top:37%;
+	}
+
+	#piano{
+	margin-left:22%;
+	margin-top:38%;
+
 	}
 }
 
