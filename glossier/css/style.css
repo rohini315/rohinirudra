@@ -283,7 +283,7 @@ ________________________*/
 @media (max-width:1600px){
 
 	.main {
-		height: 75vh;
+		height: 90vh;
 	}
 
 	.images {
@@ -338,13 +338,13 @@ ________________________*/
 
 @media (min-width:1900px){
 	.main {
-		height:75vh;
+		height:80vh;
 	}
 }
 
 @media (min-width: 2000px) {
 	.main {
-		height:70vh;
+		height:85vh;
 	}
 	.image {
 		height:60vh;
