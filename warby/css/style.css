@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Slab|Quicksand');
+
+
+.main {
+	padding: 3%;
+}
+
+.row {
+	padding: 2% 0;
+}
+
+
+header.title{
+	padding: 5% 0;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	display: inline-block;
+	padding-right: 2.5%;
+
+}
+
+h1::first-letter{
+	font-size: 2.5em;
+
+
+}
+
+img{
+	max-width: 100%;
+}
+
+
+h3 {
+	text-align:center;
+	font-family:'Comfortaa', cursive;
+	font-size:1.4em;
+}
+
+p {
+font-family: 'Josefin Slab', serif;
+font-size: 1.2em;
+font-weight: 800;
+text-align: center;
+}
+
+body {
+	background-image: url("../images/paintbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
