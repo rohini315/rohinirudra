@@ -1,0 +1,5 @@
+document.write("<scr"+"ipt src='https://www.googletagservices.com/tag/js/gpt.js'>\n");
+document.write("googletag.pubads().definePassback('/63833091/Google_MP2_default/Google_MP1_T_ONO_300x250', [300, 250]).display();\n");
+document.write("</scr"+"ipt>\n");
+
+
