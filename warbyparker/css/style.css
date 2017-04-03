@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Slab|Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-
 .main {
 	padding: 3%;
 }
@@ -25,13 +24,10 @@ h1{
 	padding-right: 2.5%;
 	color:#e9b000;
 
-
 }
 
 h1::first-letter{
 	font-size: 2.5em;
-
-
 }
 
 img{
@@ -54,8 +50,4 @@ text-align: center;
 color:#008f95;
 }
 
-/*body {
-	background-image: url("../images/warbybackground.jpg");
-	background-size: cover;
-	opacity:0.8;
-}*/
+
