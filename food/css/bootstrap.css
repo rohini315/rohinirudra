@@ -222,7 +222,7 @@ th {
     display: table-header-group;
   }
   tr,
-  img {
+   {
     page-break-inside: avoid;
   }
   img {
@@ -1124,6 +1124,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin-top: 40px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -3005,7 +3006,7 @@ select[multiple].input-lg {
 .btn {
   display: inline-block;
   padding: 6px 12px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
@@ -3063,12 +3064,14 @@ fieldset[disabled] a.btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  margin-bottom:15px;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
   background-color: #e6e6e6;
   border-color: #8c8c8c;
+
 }
 .btn-default:hover {
   color: #333;
@@ -3405,6 +3408,7 @@ fieldset[disabled] .btn-danger.focus {
   font-weight: normal;
   color: #337ab7;
   border-radius: 0;
+  margin-bottom: 15px;
 }
 .btn-link,
 .btn-link:active,
@@ -3426,6 +3430,7 @@ fieldset[disabled] .btn-link {
   color: #23527c;
   text-decoration: underline;
   background-color: transparent;
+  margin-bottom: 15px;
 }
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
@@ -3433,11 +3438,13 @@ fieldset[disabled] .btn-link:hover,
 fieldset[disabled] .btn-link:focus {
   color: #777;
   text-decoration: none;
+  margin-bottom: 15px;
 }
-.btn-lg,
-.btn-group-lg > .btn {
+
+.btn-group-lg > .btn, .btn-lg {
   padding: 10px 16px;
   font-size: 18px;
+  margin-bottom: 20px;
   line-height: 1.3333333;
   border-radius: 6px;
 }
@@ -3458,9 +3465,11 @@ fieldset[disabled] .btn-link:focus {
 .btn-block {
   display: block;
   width: 100%;
+  margin-bottom:15px;
 }
 .btn-block + .btn-block {
   margin-top: 5px;
+  margin-bottom:10px;
 }
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
