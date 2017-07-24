@@ -5,10 +5,6 @@
     src: url(../GeosansLight.ttf);
 }
 
-@font-face {
-    font-family: signature;
-    src: url(../Signerica_Fat.ttf);
-}
 
 @font-face {
     font-family: title;
@@ -20,70 +16,53 @@
     src: url(../theboldfont.ttf);
 }
 
-#main_content{
-    margin-top: 25%;
+
+header{
+    width: 50%;
+    height: 15%;
+    margin: 0 auto;
 }
 
-.section-header {
-  text-align: left;
-  margin: 0 auto;
-  padding-top: 20px;
-  font-family:heading; 
-  font-size: 40px;
-  width: 50%;
-
+#underline{
+    font-family: bold;
+    letter-spacing: -10px;
+    font-size: 20px;
 }
 
-
-.container{
-      width: 100%;
-      margin-top: 20%;
-      margin-left: 5%;
-      position: absolute;
-    }
-
-.signature_underlay {
-    width: 100%;
-    height: 500px;
-    position: relative;
-}
-
-#sig{
-    font-family: signature;
-    font-size: 100px;
-    text-align: center;
-    margin-top: 20%;
-}
-
-
-.four h5{
-    color: #313730;
-    font-family: heading, serif;
-    font-size: 35px;
+#heading {
+    font-family: heading;
+    font-size: 40px;
     text-align: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 3%;
+    margin-left: 10%;
 }
 
-.four p{
-    color: #5E645E;
-    font-family: title, serif;
-    font-size: 35px;
+.navigation{
+    margin-top: 3%;
+    position: absolute;
+    display: inline;
+    margin-left: 3%;
+    font-size: 18px;
+
 }
 
+.navigation p {
+    line-height: 25px;
+}
 
-.four a{
+.navigation a {
     text-decoration: none;
     color: #FAAF08;
-  }
 
-.four a:visited{
+}
+
+.navigation a:visited{
     text-decoration: none;
     color: #FAAF08;
 }
 
 
-.four a:hover{
+.navigation a:hover{
     font-weight: 800;
     color: #FAAF08;
     text-decoration: line-through;
@@ -94,14 +73,14 @@
     width: 25%;
     padding: 5px;
     padding-bottom: 15px;
+    margin: 0 auto;
 }
 
 .image_gallery{
-    margin: 0 auto;
-    position: relative;
     width: 70%;
-    margin-top: 5%;
+    margin-top: 4px;
     margin-bottom: 5%;
+    margin-left: 20%;
 }
 
 .row {
@@ -161,6 +140,3 @@
 
 }
 
-.thumbnail {
-    margin: 0 auto;
-}
