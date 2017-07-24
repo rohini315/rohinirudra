@@ -137,6 +137,8 @@
     width: 70%;
     height: 35%;
     border-bottom: 6px solid white;
+    text-shadow: 1px 1px #111111;
+
 }
 
 .subtext {
@@ -151,6 +153,8 @@
     top:65%;
     left: 10%;
     width: 70%;
+    text-shadow: 1px 1px #111111;
+
 
 
 }
