@@ -1,21 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
 
 @font-face {
     font-family: heading;
-    src: url(../GeosansLight.ttf);
+    src: url(../GeosansLight-Oblique.ttf);
 }
 
-
-@font-face {
-    font-family: title;
-    src: url(../simpleprint.ttf);
-}
 
 @font-face {
     font-family: bold;
     src: url(../theboldfont.ttf);
 }
-
 
 header{
     width: 50%;
@@ -45,24 +38,40 @@ header{
     font-size: 18px;
 
 }
+.contact{
+    padding-top: 5%;
+    font-size: 20px;
+    width: 25%;
+    margin: 0 auto;
+}
+
 
 .navigation p {
     line-height: 25px;
 }
 
-.navigation a {
+
+.contact p {
+    line-height: 20px;
+}
+
+.contact a{
     text-decoration: none;
     color: #FAAF08;
+    font-size: 20px;
 
 }
 
 .navigation a:visited{
     text-decoration: none;
     color: #FAAF08;
+
+}.contact a:visited{
+    text-decoration: none;
+    color: #FAAF08;
 }
 
-
-.navigation a:hover{
+.contact a:hover{
     font-weight: 800;
     color: #FAAF08;
     text-decoration: line-through;
@@ -76,7 +85,7 @@ header{
     margin: 0 auto;
 }
 
-.image_gallery{
+.image_gallery {
     width: 70%;
     margin-top: 4px;
     margin-bottom: 5%;
@@ -134,9 +143,27 @@ header{
     top:65%;
     left: 10%;
     width: 70%;
-    text-shadow: 1px 1px #404040   ;
-
-
+    text-shadow: 1px 1px #404040;
 
 }
 
+.contact-container {
+    width: 50%;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+.video-container {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 5%;
+
+}
+
+iframe{
+margin: 0 auto;
+margin-left: 25%;
+position: relative;
+}
