@@ -30,43 +30,69 @@ header{
     margin-left: 10%;
 }
 
-.navigation{
+#heading1{
+    font-family: heading;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+
+
+.three{
     margin-top: 3%;
-    position: absolute;
-    display: inline;
     margin-left: 3%;
     font-size: 18px;
-
+    width:25%;
+    position: absolute;
 }
 .contact{
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 20px;
-    width: 25%;
+    width: 40%;
     margin: 0 auto;
 }
 
 
-.navigation p {
+.three p {
     line-height: 25px;
 }
 
+.three a {
+    line-height: 25px;
+    text-decoration: none;
+    color: #FAAF08;
+}
+
+.three a:visited{
+    text-decoration: none;
+    color: #FAAF08;
+
+}
+
+.three a:hover{
+    font-weight: 800;
+    color: #FAAF08;
+    text-decoration: line-through;
+}
 
 .contact p {
-    line-height: 20px;
+    line-height: 15px;
+}
+
+.contact a {
+    line-height: 15px;
 }
 
 .contact a{
     text-decoration: none;
     color: #FAAF08;
     font-size: 20px;
-
 }
 
-.navigation a:visited{
-    text-decoration: none;
-    color: #FAAF08;
 
-}.contact a:visited{
+.contact a:visited{
     text-decoration: none;
     color: #FAAF08;
 }
@@ -149,9 +175,10 @@ header{
 
 .contact-container {
     width: 50%;
-    position: relative;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 3%;
+    position: relative;
+    background-color: pink;
 }
 
 .video-container {
@@ -162,8 +189,36 @@ header{
 
 }
 
+h5 {
+    margin-left: 20%;
+}
+
 iframe{
 margin: 0 auto;
 margin-left: 25%;
 position: relative;
 }
+
+
+
+.four a {
+    text-decoration: none;
+    color: #FAAF08;
+    font-size: 20px;
+    line-height: 0px;
+
+}
+
+.four a:visited{
+    text-decoration: none;
+    color: #FAAF08;
+}
+
+.four a:hover{
+    font-weight: 800;
+    color: #FAAF08;
+    text-decoration: line-through;
+}
+
+
+
