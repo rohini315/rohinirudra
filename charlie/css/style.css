@@ -67,18 +67,18 @@
 
     .three a {
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
     }
 
     .three a:visited{
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
 
     }
 
     .three a:hover{
         font-weight: 800;
-        color: #FAAF08;
+        color: #79B9E9;
         text-decoration: line-through;
     }
 
@@ -127,7 +127,7 @@
         white-space: nowrap;
         font-family: opif;
         letter-spacing: 5px;
-        color: pink;
+        color: #79B9E9;
         text-transform: uppercase;
         font-size: 3.8em;
         position: absolute;
@@ -137,13 +137,12 @@
         width: 70%;
         height: 35%;
         padding-bottom: 15px;
-        border-bottom: 6px solid white;
+        border-bottom: 6px solid #79B9E9;
         text-shadow: 1px 1px #404040;
     }
 
     #smaller{
         font-size: 2.5em;
-        left:1%;
         width: 75%;
         letter-spacing: 1px;
         padding: 0px;
@@ -163,7 +162,7 @@
         font-family: ginorabold;
         letter-spacing: 2px;
         font-weight: 600;
-        color: pink;
+        color: #79B9E9;
         text-transform: uppercase;
         font-size: 2em;
         position: absolute;
@@ -181,7 +180,7 @@
     /*side navigation*/
     .four a {
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
         font-size: 1.6em;
         line-height: 40px;
         font-family: navigation;
@@ -189,12 +188,12 @@
 
     .four a:visited{
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
     }
 
     .four a:hover{
         font-weight: 800;
-        color: #FAAF08;
+        color: #79B9E9;
         text-decoration: line-through;
     }
 
@@ -254,17 +253,17 @@
 
     .contact a{
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
     }
 
     .contact a:visited{
         text-decoration: none;
-        color: #FAAF08;
+        color: #79B9E9;
     }
 
     .contact a:hover{
         font-weight: 800;
-        color: #FAAF08;
+        color: #79B9E9;
         text-decoration: line-through;
     }
 
@@ -277,7 +276,7 @@
     .text {
     white-space: nowrap;
     letter-spacing: 3px;
-    color: white;
+    color: #79B9E9;
     font-size: .5em;
     position: absolute;
     overflow: hidden;
@@ -286,7 +285,7 @@
     width: 70%;
     height: 35%;
     padding-bottom: 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #79B9E9;;
     }
 
     #bigger{
