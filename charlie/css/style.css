@@ -142,8 +142,8 @@
     }
 
     #smaller{
-        font-size: 2.5em;
-        width: 72%;
+        font-size: 2.45em;
+        width: 70%;
         letter-spacing: 1px;
         padding: 0px;
         border-spacing: 1px;
@@ -151,13 +151,13 @@
 
     }
 
-    #bigger{
+ /*   #bigger{
         font-size: 5em;
         padding-bottom: 30px;
         top:5%;
         letter-spacing: 8px;
         color: #FF9C23;
-    }
+    }*/
 
     .subtext {
         white-space: nowrap;
