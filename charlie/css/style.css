@@ -4,7 +4,6 @@
     src: url(../fonts/GeosansLight-Oblique.ttf);
 }
 
-
 @font-face {
     font-family: ginorabold;
     src: url(../fonts/ginora_sans/GinoraSansBold.otf);
@@ -28,7 +27,6 @@
 
 /*-----------------name logo- only everypage-------------*/
 
-
     header{
         width: 70%;
         height: 15%;
@@ -49,7 +47,6 @@
         margin-left: 20%;
         letter-spacing: 1px;
     }
-
 
     /*-------------side navigation for landing page--------*/
 
@@ -166,7 +163,7 @@
         font-family: ginorabold;
         letter-spacing: 2px;
         font-weight: 600;
-        color: white;
+        color: pink;
         text-transform: uppercase;
         font-size: 2em;
         position: absolute;
@@ -341,7 +338,3 @@
     }
 
 }
-
-
-
-
