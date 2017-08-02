@@ -29,11 +29,6 @@
 /*-----------------name logo- only everypage-------------*/
 
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
     header{
         width: 70%;
         height: 15%;
@@ -278,7 +273,6 @@
 
 /*end of contact page*/
 
-}
 
 /*media query for mobile*/
 @media (max-width: 480px) {
