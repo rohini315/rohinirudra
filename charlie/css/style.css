@@ -127,7 +127,7 @@
         white-space: nowrap;
         font-family: opif;
         letter-spacing: 5px;
-        color: #FF9C23;
+        color: #58FFEA;
         text-transform: uppercase;
         font-size: 3.8em;
         position: absolute;
@@ -147,6 +147,7 @@
         letter-spacing: 1px;
         padding: 0px;
         border-spacing: 1px;
+        color: #58FFEA;
 
     }
 
@@ -155,6 +156,7 @@
         padding-bottom: 30px;
         top:5%;
         letter-spacing: 8px;
+        color: #58FFEA;
     }
 
     .subtext {
@@ -171,6 +173,7 @@
         left: 10%;
         width: 70%;
         text-shadow: 1px 1px #404040;
+        color: #58FFEA;
     }
     /*end of video.html*/
 
