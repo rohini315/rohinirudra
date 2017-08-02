@@ -277,7 +277,7 @@
     .text {
     white-space: nowrap;
     letter-spacing: 3px;
-    color: white;
+    color: pink;
     font-size: .5em;
     position: absolute;
     overflow: hidden;
