@@ -67,18 +67,18 @@
 
     .three a {
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
     }
 
     .three a:visited{
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
 
     }
 
     .three a:hover{
         font-weight: 800;
-        color: #79B9E9;
+        color: #DA9400;
         text-decoration: line-through;
     }
 
@@ -127,7 +127,7 @@
         white-space: nowrap;
         font-family: opif;
         letter-spacing: 5px;
-        color: #79B9E9;
+        color: #DA9400;
         text-transform: uppercase;
         font-size: 3.8em;
         position: absolute;
@@ -137,13 +137,13 @@
         width: 70%;
         height: 35%;
         padding-bottom: 15px;
-        border-bottom: 6px solid #79B9E9;
+        border-bottom: 6px solid #DA9400;
         text-shadow: 1px 1px #404040;
     }
 
     #smaller{
         font-size: 2.5em;
-        width: 75%;
+        width: 72%;
         letter-spacing: 1px;
         padding: 0px;
         border-spacing: 1px;
@@ -162,7 +162,7 @@
         font-family: ginorabold;
         letter-spacing: 2px;
         font-weight: 600;
-        color: #79B9E9;
+        color: #DA9400;
         text-transform: uppercase;
         font-size: 2em;
         position: absolute;
@@ -180,7 +180,7 @@
     /*side navigation*/
     .four a {
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
         font-size: 1.6em;
         line-height: 40px;
         font-family: navigation;
@@ -188,12 +188,12 @@
 
     .four a:visited{
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
     }
 
     .four a:hover{
         font-weight: 800;
-        color: #79B9E9;
+        color: #DA9400;
         text-decoration: line-through;
     }
 
@@ -253,17 +253,17 @@
 
     .contact a{
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
     }
 
     .contact a:visited{
         text-decoration: none;
-        color: #79B9E9;
+        color: #DA9400;
     }
 
     .contact a:hover{
         font-weight: 800;
-        color: #79B9E9;
+        color: #DA9400;
         text-decoration: line-through;
     }
 
@@ -276,7 +276,7 @@
     .text {
     white-space: nowrap;
     letter-spacing: 3px;
-    color: #79B9E9;
+    color: #DA9400;
     font-size: .5em;
     position: absolute;
     overflow: hidden;
@@ -285,7 +285,7 @@
     width: 70%;
     height: 35%;
     padding-bottom: 0px;
-    border-bottom: 2px solid #79B9E9;;
+    border-bottom: 2px solid #00B498;;
     }
 
     #bigger{
