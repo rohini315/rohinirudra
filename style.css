@@ -541,7 +541,7 @@ a {
 
 /**** end animation ****/
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 	.project-image {
 		margin-left: 10%;
 		width: 80%;
