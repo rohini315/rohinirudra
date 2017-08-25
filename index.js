@@ -54,8 +54,6 @@ $(document).ready(function() {
 			var projectID = $("#p" + projectNumber);
 			var projectName = projectID.html();
 			$("#p0").text(projectName);
-
-			console.log(projectName);
 		}
 
 
@@ -91,10 +89,7 @@ $(document).ready(function() {
 		}
 
 		// links to go to project page (from title and thumbnail)
-		var linkDictionary = {1: "quak.html", 2: "dailyui.html", 3: "teetime.html", 4: "comingsoon.html", 5: "comingsoon.html", 6: "williamsburg.html", 7: "emoji.html"} // CHANGE PROJECT LINKS HERE
-		$("#p0").click(function () {
-			window.location.href = linkDictionary[projectNumber];
-		});
+		var linkDictionary = { 2: "dailyui.html", 3: "teetime.html", 6: "williamsburg.html", 7: "emoji.html"} // CHANGE PROJECT LINKS HERE
 		$(".project-image").click(function () {
 			window.location.href = linkDictionary[$(this).attr('id').slice(-1)];
 		});

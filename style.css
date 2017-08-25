@@ -451,12 +451,13 @@ a {
 }
 
 #social-link-container {
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-left: 50px;
 }
 
 #social-link-container a {
 	color: black;
+	padding: 15px;
 }
 
 #social-link-container a:hover {
