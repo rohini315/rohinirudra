@@ -461,8 +461,8 @@ a {
 }
 
 #social-link-container a:hover {
-	background: rgba(31, 31, 31, 0.85);
-	color: white;
+	color: #ffca47;
+;
 }
 
 /**** animating name****/
