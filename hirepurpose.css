@@ -233,7 +233,10 @@ h1{
 .post h2{
   margin-bottom:2.5rem;
   color:#000;
+  margin-top: 2.3rem
 }
+
+
 
 .post h1{
   margin-bottom:2.6rem;
@@ -295,6 +298,10 @@ h2{
 
 #herecruit .head-style{
   color: #1F70C7;
+}
+
+#netspend .head-style{
+  color: #34495e;
 }
 
 #herecruit #progressBar::-webkit-progress-value {
@@ -505,6 +512,15 @@ progress::-moz-progress-bar {
   font-size:2rem;
   /*text-transform: uppercase;*/
   border-top: 1px solid #ddd;
+  margin-top: 5.6rem;
+}
+
+#netspend .post h2{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  font-size:2rem;
+  /*text-transform: uppercase;*/
+  border-top: 1px solid #34495e;
   margin-top: 5.6rem;
 }
 
@@ -1044,8 +1060,34 @@ h5{
 
 
 
+
 .menu-subitems li{
   margin-bottom:0.5rem;
+}
+
+#headerimg {
+  max-width: 50%;
+}
+
+#diagram {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#persona {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#flow {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+
+#emailimage {
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .post-image, .post-video{
@@ -1179,6 +1221,9 @@ header {
   height: 0;
 }
 
+#highlight { font-size: 1.2rem;
+            color: #f39c12;
+}
 
 
 .thin_line{

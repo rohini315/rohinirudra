@@ -84,6 +84,11 @@ body{
   margin-right: auto;
 }
 
+#headerimage{
+  max-width: 50%
+  margin: 0 auto;
+}
+
 #bethapge .text-width .button{
   color:#2E7EB2;
 }
@@ -141,6 +146,7 @@ h1{
 }
 
 .post h2{
+  margin-top: 2.3rem;
   margin-bottom: 1.2rem;
   color:#000;
 }
@@ -918,6 +924,10 @@ header {
 
 .hirepurpose-overlay{
   background-color: #ff6348;
+}
+
+.netspend-overlay{
+  background-color: #2ecc71;
 }
 
 .cc-overlay{
